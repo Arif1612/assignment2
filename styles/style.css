@@ -99,3 +99,91 @@ footer {
     transform: scale(1.2) rotate(360deg);
     transition: transform 2s ease;
   }
+
+  /*-------------------------
+  Legendary BD Football Player
+  ---------------*/
+
+  .legend-players {
+    background-color: rgb(78, 139, 219);
+    }
+    .section-title {
+    text-align: center;
+    padding: 40px 0;
+    }
+    .top-legends {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    }
+    .all-legends {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    }
+    .legend {
+    display: flex;
+    align-items: center;
+    padding: 0 10px 20px;
+    }
+    .legend img {
+    width: 56px;
+    height: 56px;
+    border-radius: 30%;
+    }
+
+    .player-name {
+    margin-left: 16px;
+    font-size: 18px;
+    }
+
+
+    /*--------------------------------
+    responsibe for mobile 
+    -----------------------*/
+@media only screen and (max-width: 688px) {
+  .top-most {
+    width: 100%;
+    flex-direction: column;
+  }
+  .top-left {
+    justify-content: center;
+  }
+  .top-left h1 {
+    width: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 50px;
+  }
+  .top-left a {
+    text-align: left;
+  }
+  .top-right img {
+    margin-top: 40px;
+    width: 80%;
+    height: 80%;
+  }
+  .all-legends {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .all-tournaments {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px 80px;
+  }
+  .player-album {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px 10px;
+  }
+  .player-details {
+    margin: 15px;
+  }
+  
+  .legend {
+    flex-direction: column;
+  }
+  .footer-logo img {
+    width: 80%;
+    height: 80%;
+  }
+}
+
