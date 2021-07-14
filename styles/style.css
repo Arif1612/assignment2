@@ -71,3 +71,31 @@ Section 2 Present Top Players
   color: #6c6c6c;
 }
 
+/*---------------------
+footer part is here
+--------------*/
+
+footer {
+    text-align: center;
+  }
+  .footer-logo img {
+    width: 484px;
+    height: 110px;
+  }
+  .footer-icons {
+    padding-bottom: 20px;
+  }
+  .footer-icons img {
+    width: 32px;
+    height: 32px;
+  }
+  .copyright {
+    padding-bottom: 40px;
+  }
+  #copy-icon:after {
+    content: "\00a9";
+  }
+  .header-right:hover img {
+    transform: scale(1.2) rotate(360deg);
+    transition: transform 2s ease;
+  }
